@@ -16,6 +16,9 @@
 
 ---
 
+效果预览<img width="2400" height="1080" alt="Screenshot_1029632950239240" src="https://github.com/user-attachments/assets/8195406f-c76f-4e10-815e-9c8098175fd2" />
+
+
 ##  如何使用？
 
  依赖安装
@@ -27,6 +30,9 @@ pip install Pillow
 ```bash
 python 水印.py
 ```
+
+---
+
 ##  参数调节
 ```
 input_folder_path = "C"
