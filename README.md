@@ -54,5 +54,5 @@ angle = 45
 旋转角度（0～360）
 ```
 ## 下载
-[水印.py](https://qfile.qq.com)
+[水印.py](https://github.com/user-attachments/files/30675976/default.py)
 
