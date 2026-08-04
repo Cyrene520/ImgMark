@@ -16,9 +16,10 @@
 
 ---
 
-效果预览<img width="2400" height="1080" alt="Screenshot_1029632950239240" src="https://github.com/user-attachments/assets/8195406f-c76f-4e10-815e-9c8098175fd2" />
+## 效果预览
+<img width="2400" height="1080" alt="Screenshot_1029632950239240" src="https://github.com/user-attachments/assets/8195406f-c76f-4e10-815e-9c8098175fd2" />
 
-
+---
 ##  如何使用？
 
  依赖安装
@@ -35,17 +36,22 @@ python 水印.py
 
 ##  参数调节
 ```
+fill=(255, 153, 213, alpha)
+数字为RGB颜色代码， 数值为0～255，默认值为粉色
+
 input_folder_path = "C"
 输入文件夹（填写完整的文件所在路径）
 
-output_folder_path = "Cyrene"
-输出文件夹（同上）
+输入文件夹里有多少图片文件就输出多少
 
-watermark_text = "需要添加的文本"
-水印文字
+output_folder_path = "Cyrene"
+输出文件夹（同上写路径）
+
+watermark_text = "我是水印"
+水印文字（暂不支持添加汉字水印）
 
 font_file_path = "DINCOND-BOLD.otf"                
-字体文件路径（同样填写完成途径）
+字体文件路径（同样填写完整途径）
 
 text_size = 50                                         
 字号大小
